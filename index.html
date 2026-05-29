@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFINDS | Cyber-Rustic Deal Bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-circuit-bar"></div>
+
+    <header>
+        <div class="header-container">
+            <h1 class="logo">NET<span>FINDS</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#bot-feed">Live Bot</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="badge"><i class="fa-solid fa-robot"></i> BOT STATUS: ONLINE</span>
+                <h2>A Rústica Arte de Garimpar, <br><span class="neon-text">Na Velocidade Cyber.</span></h2>
+                <p>O NETFINDS varre os servidores do Mercado Livre e da Shopee em tempo real. Nosso algoritmo inteligente rastreia e filtra roupas, acessórios e eletrônicos com descontos brutais.</p>
+                <a href="#bot-feed" class="btn-primary">Ver Feed Ao Vivo</a>
+            </div>
+        </section>
+
+        <section id="bot-feed" class="bot-section">
+            <div class="section-header">
+                <div class="title-wrapper">
+                    <div class="pulse-indicator"></div>
+                    <h2>Radar de Ofertas do Robô</h2>
+                </div>
+                <p>Atualizações automáticas a cada 4 segundos. Estoques limitados.</p>
+            </div>
+
+            <div class="bot-terminal">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">netfinds_bot_crawler.sh</span>
+                </div>
+                <div class="terminal-body" id="terminal-log">
+                    <p class="log-entry">> Inicializando varredura nos servidores da Shopee e Mercado Livre...</p>
+                    <p class="log-entry success">> Conexão estabelecida com sucesso. Buscando promoções...</p>
+                </div>
+            </div>
+
+            <div class="feed-grid" id="products-feed">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NETFINDS. Algoritmos rústicos de alta precisão. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
